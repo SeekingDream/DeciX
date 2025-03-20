@@ -7,37 +7,6 @@
 
 The comparsion results against two white-box baselines are presented in the above figure, from the results, we observe that although DeciX does not outperform whitebox baselines. However,DeciX is still comparable against them. Moreover, DeciX is more generable, as these two baselines can not be applied on DeepAPI, which does not use transformer layer.
 
-
-## Hyperparameter Study
-
-| Subject  | percentage | Deduction | Augmentation | Synthetic  |
-|----------|------------|-----------|--------------|------------|
-| DeepAPI  | 0.2        | 22.16     | 16.90        | 12.97      |
-|          | 0.4        | 23.11     | 17.71        | 12.55      |
-|          | 0.6        | 20.04     | 14.32        | 11.79      |
-| CodeBert | 0.2        | 38.03     | 63.08        | 66.83      |
-|          | 0.4        | 38.88     | 65.55        | 67.89      |
-|          | 0.6        | 35.55     | 62.31        | 65.46      |
-| PyGPT2   | 0.2        | 9.80      | 14.40        | 16.48      |
-|          | 0.4        | 10.12     | 14.56        | 16.78      |
-|          | 0.6        | 9.89      | 12.66        | 14.32      |
-
-The hyperparameter study of different mutation percentage are shown in the above Table, form the results, we confirm that DeciX is not senstive to the hyperparameter mutation percentage.
-
-
-## Tokenizer Study
-
-The model name of our study are presented [here](https://github.com/anonymousGithub2022/DeciX/blob/main/model_tokenizer.txt), and the similarity matrix are shown in the [file](https://github.com/anonymousGithub2022/DeciX/blob/main/fig/cal_new_en_vocab%20(2).csv)
-
-
-
-## Commercial Code Model
-
-<div  align="center">    
- <img src="https://github.com/anonymousGithub2022/DeciX/blob/main/fig/gpt-page-002.jpg" width="720" height="400" alt="Design Overview"/><br/>
-</div>    
-The evaluation on commercial GPT3.5 model are shown in the above figure, from the results, we can observe that DeciX outperform the baseline methods a significant margin in the ommercial GPT3.5 model.
-
 # DeciX
 
 
